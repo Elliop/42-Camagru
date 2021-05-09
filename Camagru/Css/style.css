@@ -1,0 +1,162 @@
+/* ------------------------ ALL ------------------------ */
+body
+{
+    margin: 0;
+    padding: 0;
+}
+h3
+{
+   font-weight: bold;
+   font-size: 2.3vw;
+   margin: 0 0 5%;
+   font-family: sans-serif;
+   color: #717171;
+}
+/* ------------------------ FORM ------------------------ */
+.all
+{
+    text-align: center;
+}
+.camagru
+{
+    color: #000;
+    font-size: 4.5vw;
+    text-decoration: none;
+    margin: 5%;
+    font-weight: bold;
+}
+.email, .username, .password, .button
+{
+    margin-bottom: 3%;
+}
+.e
+{
+    width: 30%;
+    height: 3%;
+    border-radius: 20px 20px;
+    padding: 2% 2%;
+}
+.b
+{
+    width: 30%;
+    height: 5%;
+    border-radius: 20px 20px;
+    background: #376bff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3vw;
+    transition: all 0.3s ease-in 0s;
+    padding: 2% 2%;
+}
+.b:hover
+{
+    background: #000;
+}
+.forget
+{
+    font-size: 1.6vw;
+}
+.f
+{
+    color: #717171;
+    text-decoration: none;
+    font-weight: bold;
+}
+.dont
+{
+    color: #717171;
+    font-size: 1.6vw;
+}
+.r
+{
+    color: #000;
+    font-size: 1.6vw;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* ------------------------ LIST ------------------------ */
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+li
+{
+    float: right;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: #111;
+}
+img
+{
+    width: 40%;
+}
+.nav
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  height: 100%;
+  position: fixed;
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+/* ----------------------------FOOTER---------------------------- */
+footer
+{
+border-radius: 10px;
+height: 10%;
+width: 100%;
+background-color: #444;
+margin: 0;
+position: fixed;
+bottom: 0;
+}
+footer h1
+{
+    color: #fff;
+    text-align: center;
+}
+.copy
+{
+    text-align: center;
+    font-weight: bold;
+    color: #777;
+}
+
+.msg_err
+{
+    color: red;
+    font-size: 1.3vw;
+}
+.bt
+{
+    width: 30%;
+    height: 5%;
+    border-radius: 20px 20px;
+    background: #376bff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3vw;
+    transition: all 0.3s ease-in 0s;
+    padding: 2% 2%;
+    margin-top: 20%;
+}
+.bt:hover
+{
+    background: #000;
+}

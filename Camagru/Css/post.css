@@ -1,0 +1,150 @@
+/* ------------------------ ALL ------------------------ */
+body
+{
+    margin: 0;
+    padding: 0;
+}
+h3
+{
+   font-weight: bold;
+   font-size: 2.3vw;
+   margin: 0 0 5%;
+   font-family: sans-serif;
+   color: #717171;
+}
+/* ------------------------ LIST ------------------------ */
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+li
+{
+    float: right;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: #111;
+}
+.nav
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  height: 100%;
+  position: fixed;
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+/* ----------------------------FOOTER---------------------------- */
+footer
+{
+    border-radius: 10px;
+    height: 10%;
+    width: 100%;
+    background-color: #444;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    margin-top: 90%;
+}
+footer h1
+{
+    color: #fff;
+    text-align: center;
+}
+.copy
+{
+    text-align: center;
+    font-weight: bold;
+    color: #777;
+}
+/* ----------------------------LIKE---------------------------- */
+.fa
+{
+   font-size: 80px;
+   cursor: pointer;
+   user-select: none;
+ }
+ 
+ .fa:hover
+ {
+   color: darkblue;
+ }
+/* ----------------------------COMNT---------------------------- */
+ .comnt
+ {
+     margin-top: 10px;
+     border: 2px solid #333;
+     border-radius: 10px;
+ }
+ .frm
+ {
+     margin: 10px;
+ }
+ .f
+ {
+     width: 90%;
+     height: 40px;
+     border-radius: 7px;
+ }
+ .b
+ {
+     width: 8%;
+     height: 40px;
+     border-radius: 7px;
+ }
+ .pt
+ {
+     margin: 10px;
+ }
+ .p
+{
+    background: #111;
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+}
+/* -------------Img dans camagru.php-------------- */
+.postes
+{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    display:  block;
+    margin-top: 2%;
+ }
+ .postes img
+ {
+    width: 100%;
+    height: 100%;
+ }
+ #supp
+ {
+    margin-top: 15%;
+    width: 600px;
+    height: 30px;
+    border-radius: 10px;
+    background: #b30000;
+ }
+.msg_err
+{
+    color: red;
+    font-size: 1.3vw;
+}
